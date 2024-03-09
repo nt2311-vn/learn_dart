@@ -11,5 +11,15 @@ void main(List<String> args) {
   2. final: Run-time constant (cannot reassign after initialization but value reference change is allowed)
   */
 
+  const compList = [1, 2, 3, 4];
+   // get error due to comp_list value cannot change during run time comp_list.removeAt(2);
+  print(compList);
+
+  final runList = [1, 2, 3, 4];
+  runList.removeAt(2);
+  print(runList);
+
+
+
 }
 
