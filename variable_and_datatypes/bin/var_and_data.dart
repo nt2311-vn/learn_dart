@@ -20,6 +20,14 @@ void main(List<String> args) {
   print(runList);
 
 
+  var address = '420 Cao Thang, District 10, HCMC';
+  print(address);
+
+  address = address.replaceAll('District 10', "District 11");
+
+  print(address);
+
+
 
 }
 
