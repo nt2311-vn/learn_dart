@@ -28,6 +28,15 @@ void main(List<String> args) {
   print(address);
 
 
+  // late variable is executed when was used
 
+  late final ourTable = getValue();
+  print("We are here");
+  print(ourTable);
 }
+
+int getValue() {
+    print("Our table is");
+    return 10;
+  }
 
