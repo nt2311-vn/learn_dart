@@ -20,4 +20,11 @@ void main(List<String> args) {
   print(--a);
   const myTrue = true;
   print(!myTrue);
+  print(++a);
+  print(a);
+
+  /// unary bitwise complement prefix operator
+  print(~1);
+  print(-a);
+  print(a);
 }
