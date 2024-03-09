@@ -28,7 +28,7 @@ void main(List<String> args) {
   print(address);
 
 
-  // late variable is executed when was used
+  // late variable defers the runtime till in use
 
   late final ourTable = getValue();
   print("We are here");
