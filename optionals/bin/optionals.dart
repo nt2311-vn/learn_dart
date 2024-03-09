@@ -1,5 +1,16 @@
-import 'package:optionals/optionals.dart' as optionals;
+void main(List<String> args) {
+  // Optionals decalared with ? either value or null
+  const String? name = null;
+  print(name);
+  print(null);
 
-void main(List<String> arguments) {
-  print('Hello world: ${optionals.calculate()}!');
+  final String? name2 = "You";
+  print(name2);
+
+  // Any variable without type being as null will be dynamic
+  const someVal = null;
+  print(someVal);
+
+  int? age = 20;
+  print("Age: $age");
 }
