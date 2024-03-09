@@ -15,7 +15,7 @@ void main(List<String> args) {
 
   // unary prefix, unary postfix, binary infix, compound assignment
 
-  // unary prefix
+  // unary prefix modifying the variable before returning the value
   int a = 10;
   print(--a);
   const myTrue = true;
@@ -27,4 +27,27 @@ void main(List<String> args) {
   print(~1);
   print(-a);
   print(a);
+
+  /// unary postfix returns the value before modifying the variable
+  var age = 40;
+  print(age--);
+  print(age);
+
+  /// binary infix operator
+  const money = 100;
+  print(money + 200);
+  print(money - 200);
+  print(money * 200);
+  print(money / 2);
+  print(money ~/ 2);
+  print(money % 2);
+  print(money == 20);
+  print(money != 20);
+  print(money > 20);
+  print(money < 20);
+  print(money | 20);
+  print(money & 20);
+  print(money ^ 20);
+  print(age << 20);
+  print(age >> 20);
 }
