@@ -1,5 +1,12 @@
-import 'package:operators/operators.dart' as operators;
+void main(List<String> args) {
+  const myOrange = 20;
+  const yourOrange = 10;
+  print(myOrange + yourOrange);
+  print(myOrange + yourOrange + 20);
+  print(myOrange - yourOrange);
+  print(myOrange * yourOrange);
+  print(myOrange / yourOrange);
 
-void main(List<String> arguments) {
-  print('Hello world: ${operators.calculate()}!');
+  const intDivision = myOrange ~/ yourOrange;
+  print(intDivision);
 }
