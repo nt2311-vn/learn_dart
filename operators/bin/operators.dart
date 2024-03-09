@@ -9,4 +9,15 @@ void main(List<String> args) {
 
   const intDivision = myOrange ~/ yourOrange;
   print(intDivision);
+
+  const remainder = myOrange % yourOrange;
+  print(remainder);
+
+  // unary prefix, unary postfix, binary infix, compound assignment
+
+  // unary prefix
+  int a = 10;
+  print(--a);
+  const myTrue = true;
+  print(!myTrue);
 }
