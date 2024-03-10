@@ -51,4 +51,15 @@ void main(List<String> args) {
   dynamicList.add(null);
   dynamicList.add("Bar");
   print(dynamicList);
+
+  /// Null-aware after a guard check
+
+  final String? whoseName = null;
+
+  if (whoseName == null) {
+    print("Whose name is null");
+  } else {
+    final int length = whoseName.length;
+    print(length);
+  }
 }
