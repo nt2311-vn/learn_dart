@@ -24,4 +24,9 @@ void main(List<String> args) {
 
   String? lastName;
   print(lastName?.length);
+
+  String? myName;
+  String? yourName;
+
+  print(myName ?? yourName ?? "Not a messy");
 }
