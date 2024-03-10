@@ -29,4 +29,12 @@ void main(List<String> args) {
   String? yourName;
 
   print(myName ?? yourName ?? "Not a messy");
+
+  /// Optional with container data types
+
+  /// List and its content can be null
+  List<String?>? names = [];
+  names.add("Foo");
+  names.add(null);
+  print(names);
 }
