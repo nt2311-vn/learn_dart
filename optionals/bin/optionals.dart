@@ -13,4 +13,10 @@ void main(List<String> args) {
 
   int? age = 20;
   print("Age: $age");
+
+  // Compund assignment to nullable
+
+  int? a;
+  a ??= 10;
+  print(a);
 }
