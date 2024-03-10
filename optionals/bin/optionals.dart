@@ -42,6 +42,13 @@ void main(List<String> args) {
 
   List<String> listNames = [];
 
-  final firstElement = listNames.first;
+  final firstElement = listNames.isEmpty ? "No name" : listNames.first;
   print(firstElement);
+
+  /// dynamic list
+
+  List<String?> dynamicList = [];
+  dynamicList.add(null);
+  dynamicList.add("Bar");
+  print(dynamicList);
 }
