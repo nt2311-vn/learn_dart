@@ -19,4 +19,9 @@ void main(List<String> args) {
   int? a;
   a ??= 10;
   print(a);
+
+  /// Null aware operator
+
+  String? lastName;
+  print(lastName?.length);
 }
