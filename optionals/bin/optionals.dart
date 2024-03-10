@@ -37,4 +37,11 @@ void main(List<String> args) {
   names.add("Foo");
   names.add(null);
   print(names);
+
+  /// Aware working with first element in list with Dart
+
+  List<String> listNames = [];
+
+  final firstElement = listNames.first;
+  print(firstElement);
 }
